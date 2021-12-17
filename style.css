@@ -27,6 +27,15 @@ font-family: "MontserratBold";
 display: none;
 }
 
+.partners_item12{
+    display: none;
+}
+
+.partners_item22{
+    display: none;
+}
+
+
 .dreams__header_logo{
     
 }
@@ -770,18 +779,22 @@ tbody{
         margin-left: 5em;
     }
 
-    .dreams__header2{
+    .dreams__header2 {
         display: flex;
+        justify-content: center;
         margin-left: auto;
-        margin-right: auto;    
+        margin-right: auto;
+        font-family: 'MontserratBold';
+        font-size: 20px;
+        margin-top: 114px;
     }
 
     .dreams__header_logo_text2{
-        margin-top: 20px;
+
     }
 
     .dreams__header_logo_text2 {
-        margin-top: 114px;
+        margin-top: 120px;
         font-size: 20px;
     }
 
@@ -826,9 +839,282 @@ tbody{
         height: 89vh;
             }
 
+.works__main{
+    width: 105%;
+}
+
+.works__header_text {
+    margin-top: 5vh;
+    margin-left: 16px;
+    font-size: 22px;
+    }
+
+    .works__main {
+        width: 105%;
+        display: flex;
+        justify-content: center;
+        margin-left: -12px;
+        margin-top: 3px;
+    }
+
+    .works__main_item {
+        color: white;
+        margin-top: 11px;
+        width: 300px;
+        height: 39.5vh;
+        margin-left: 21px;
+        border-radius: 4px;
+    }
+    .works_item__button_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -18.2vh;
+    }
+
+    .works_item__text_text {
+        margin-top: 13px;
+        width: 260px;
+        font-family: "Roboto";
+        font-size: 14px;
+    }
+
+    .works_item__button_text2{
+        margin-top: -83px;
+    }
+
+    .works_item__button_text3{
+        margin-top: -115px;
+    }   
+
+    .partners_header_text {
+        text-align: center;
+        max-width: 250px;
+        margin-top: 30px;
+        margin-left: -3px;
+    }
+
+    .partners_item {
+        margin-top: 3vh;
+        width: 237px;
+        height: 37.1vh;
+        display: block;
+        text-align: center;
+        margin-left: -1px;
+    }
+
+    .partners_item__header_text_text {
+        margin-left: 4px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        margin-top: 2.5vh;
+        width: 70vw;
+    }
+
+    .partners_item11{
+        display: none;
+    }
+
+    .partners_item21{
+        display: none;
+    }
+
+    
+    .partners_item12{
+        display: block;
+        
+    }
+
+    .partners_item22{
+        display: block;
+        
+    }
+
+    .item_part1{
+        margin-top: 10px;
+    }
+
+    .partners_item {
+        margin-top: 18px;
+        width: 240px;
+        height: 246px;
+        display: block;
+        text-align: center;
+        margin-left: -1px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .item_part1{
+        margin-top: 18px;
+    }
+
+    .partners__button_text {
+        display: flex;
+        margin-top: -16px;
+        font-size: 14px;
+        font-family: 'MontserratBold';
+        margin-left: 14px;
+        border: 2px solid orangered;
+        width: 276px;
+        height: 35px;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ideas__header_text {
+        margin-top: 5.6vh;
+        font-size: 22px;
+        text-align: center;
+        font-family: 'MontserratBold';
+        margin-left: 15px;
+
+}
+
+.table{
+    width: 100%;
+    display: block;
+    margin-top: -10%;
+text-align: center;
+}
+
+tbody {
+    width: 110%;
+    margin-left: 30px;
+    margin-top: -16px;
+}
+
+td{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 20px;
+}
+
+tr {
+    display: block;
+}
+
+.table td {
+    margin-left: 2vw;
+    width: 73vw;
+    height: 28.7vw;
+    font-size: 10px;
+    font-family: "MontserratBold";
+    margin-top: 5px;
+}
+
+.ideas_main {
+    width: 110%;
+    margin-left: 0px;
+}
+.ideas_item {
+    width: 298px;
+    height: 19.5vh;
+    margin-top: 10px;
+}
+
+.interests__header_text {
+    margin-top: 5.3vh;
+    font-size: 22px;
+    font-family: 'MontserratBold';
+    margin-left: 12px;
+    text-align: center;
+}
+
+.interests__text_text {
+    margin-top: 2.3vh;
+    font-size: 18px;
+    margin-left: 13px;
+    font-family: 'Roboto';
+}
+
+.interests__main {
+    display: block;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.interests__main_input input {
+    width: 271px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.interests__button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    color: white;
+    width: 280px;
+    margin-left: 18px;
+    height: 40px;
+    background: orangered;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 6.55vh;
+}
+
+.footer__main {
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    width: 86vw;
+}
+
+.footer__main_logo {
+    margin-left: 13.2vw;
+    color: orangered;
+    font-size: 17px;
+    font-family: 'MontserratBold';
+    margin-top: -15px;
+}
+
+.footer__main_company {
+    margin-left: 14.5vw;
+    height: 8vh;
+    margin-top: 5px;
+}
+
+.footer__main_company_header_text {
+    font-family: 'MontserratBold';
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: -5px;
+}
+
+.footer__main_partners_text {
+    margin-left: 13.4vw;
+    font-size: 14px;
+    font-family: 'MontserratBold';
+    margin-top: 4px;
+}
+
+.list_item {
+    margin-top: -6px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.footer__main_company_list {
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    margin-left: -15px;
+}
+
+.footer__logo_logo {
+    text-align: center;
+    margin-top: 4vh;
 }
 
 
+}
     
 
 
