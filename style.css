@@ -5,6 +5,7 @@
 
 .main{
 border-bottom: 4px solid orangered;
+/* display: block; */
 }
 
 .main__dreams{
@@ -20,6 +21,10 @@ display: flex;
 flex-wrap: wrap;
 color: white;
 font-family: "MontserratBold";
+}
+
+.dreams__header2{
+display: none;
 }
 
 .dreams__header_logo{
@@ -236,7 +241,7 @@ margin-left: -22px;
 
 .partners_item {
     margin-top: 4.8vh;
-    width: 15.45vw;
+    width: 237px;
     height: 39vh;
     display: block;
     text-align: center;
@@ -276,7 +281,7 @@ border-radius: 20px;
 .partners_item_header_text {
     text-align: center;
     font-family: 'MontserratBold';
-    margin-top: 2.3vh;
+    margin-top: 2.5vh;
     margin-left: -3px;
     font-size: 14px;
 }
@@ -307,7 +312,7 @@ color: orangered;
 
 .partners__button_text {
     display: flex;
-    margin-top: 2px;
+    margin-top: 3px;
     font-size: 14px;
     font-family: 'MontserratBold';
     margin-left: 0px;
@@ -351,7 +356,7 @@ justify-content: center;
 }
 
 .ideas_item {
-    width: 19.5vw;
+    width: 299px;
     height: 44.4vh;
     background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882) no-repeat;
     background-size: cover;
@@ -490,6 +495,349 @@ margin-top: 7px;
 margin-left: -10vw;
 margin-top: 5vh;
 }
+
+
+
+@media(max-width:768px){
+   
+    .dreams__header_logo_text {
+        margin-top: 7.5vh;
+        margin-left: 6.3vw;
+        font-size: 18px;
+    }
+
+    .dreams__header_menu_login {
+        margin-top: 9.7%;
+        margin-left: 23.79em;
+    }
+
+    .dreams__header_menu_signup_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3vw;
+        margin-top: 6.3vh;
+        width: 85px;
+        height: 32px;
+        font-size: 13px;
+        border: 2px solid white;
+        border-radius: 35px;
+    }
+
+    .dreams__main_header_text {
+        text-align: center;
+        margin-top: 22.9vh;
+        max-width: 62vw;
+        margin-left: 2px;
+    }
+
+    .dreams__main_text_text {
+        margin-top: 4.9vh;
+        margin-left: 3.3vw;
+        font-family: "Roboto";
+    }
+
+.dreams__main_button_text{
+    margin-top: 5.3vh;
+}
+
+.main__dreams{
+    width: 102%;
+    height: 115vh;
+}
+
+.works__main {
+    width: 102%;
+    display: flex;
+    justify-content: center;
+    margin-left: -12px;
+    margin-top: -8px;
+}
+
+.works__header_text {
+    margin-top: 15.2vh;
+    margin-left: 24px;
+    font-size: 22px;
+}
+
+.works__main_item {
+    color: white;
+    margin-top: 43px;
+    width: 235px;
+    height: 65.5vh;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.works_item__button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34.9vh;
+}
+
+.works_item__header_text {
+    font-size: 24px;
+    width: 205px;
+    font-family: "MontserratBold";
+    margin-top: 2vh;
+}
+
+.works_item__text_text {
+    margin-top: 13px;
+    width: 206px;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.works_item__button_text2 {
+    margin-top: 42.5vh;
+}
+
+.partners_header_text {
+    margin-top: 96px;
+    margin-left: -7px;
+}
+
+.partners__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 18px;
+    max-width: 715px;
+}
+
+.partners_item {
+    margin-top: 5.4vh;
+    width: 237px;
+    height: 37.1vh;
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.partners_item__header_text_text {
+    margin-left: 4px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 2.5vh;
+    width: 29vw;
+}
+
+.partners__button_text {
+    display: flex;
+    margin-top: 47px;
+    font-size: 14px;
+    font-family: 'MontserratBold';
+    margin-left: 14px;
+    border: 2px solid orangered;
+    width: 188px;
+    height: 35px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas__header_text {
+    margin-top: 15.7vh;
+    font-size: 22px;
+    font-family: 'MontserratBold';
+    margin-left: 15px;
+}
+.ideas_main{
+    width: 110%;
+    margin-left: -20px;
+}
+
+.ideas__table{
+    width: 110%;
+    margin-left: -20px;
+}
+
+.ideas_item {
+    width: 234px;
+    height: 50.4vh;
+}
+
+table{
+    width: 110%;
+    margin-left: -20px;
+}
+
+tbody{
+    width: 110%;
+    margin-left: 30px;
+}
+
+.interests__header_text {
+    margin-top: 12.3vh;
+    font-size: 22px;
+    font-family: 'MontserratBold';
+    margin-left: 12px;
+}
+
+.interests__text_text {
+    margin-top: 5.5vh;
+    font-size: 18px;
+    margin-left: 13px;
+    font-family: 'Roboto';
+}
+
+.interests__main {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.interests__main_input input {
+    width: 232px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.interests__button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    color: white;
+    width: 158px;
+    margin-left: 9px;
+    height: 40px;
+    background: orangered;
+    margin-top: -7px;
+    border-radius: 30px;
+    margin-bottom: 16.55vh;
+}
+
+.footer__main_logo {
+    margin-left: -8.8vw;
+    color: orangered;
+    font-size: 16px;
+    font-family: 'MontserratBold';
+    margin-top: 4px;
+}
+
+.footer__main_company {
+    margin-left: 14.5vw;
+    height: 19vh;
+    margin-top: 5px;
+}
+
+.list_item {
+    margin-top: 6px;
+}
+
+.footer__main_company_list {
+    margin-top: 12px;
+    margin-left: -4px;
+}
+
+.footer__main_partners_text {
+    margin-left: 13.4vw;
+    font-size: 14px;
+    font-family: 'MontserratBold';
+    margin-top: 5px;
+}
+
+.footer__logo_logo {
+    margin-left: -5vw;
+    margin-top: 8vh;
+}
+}
+
+@media(max-width: 321px){
+
+    .dreams__header_menu_login{
+        margin-top: 6.3%;
+        margin-left: 0em;
+    }
+
+    .dreams__header_logo_text{
+        display: none;
+    }
+
+
+    .dreams__header_menu_signup_text {
+       margin-left: 8vw;
+        margin-top: 3.3vh;
+        
+    }
+
+    .dreams__header_menu_login {
+        margin-top: 14.3%;
+        margin-left: 5em;
+    }
+
+    .dreams__header2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+    .dreams__header_logo_text2{
+        margin-top: 20px;
+    }
+
+    .dreams__header_logo_text2 {
+        margin-top: 114px;
+        font-size: 20px;
+    }
+
+    .dreams__main_header_text {
+        text-align: center;
+        margin-top: 28px;
+        max-width: 100%;
+        font-size: 29px;
+        margin-left: 3px;
+    }
+
+    .dreams__main_text {
+        font-size: 25px;
+        text-align: center;
+        width: 80%;
+        margin-top: 12px;
+        margin-left: 30px;
+    }
+
+    .dreams__main_text_text {
+        margin-top: 0.9vh;
+        margin-left: 3.3vw;
+        font-family: "Roboto";
+        font-size: 19px;
+    }
+
+    .dreams__main_button_text {
+        margin-top: 2vh;
+    }
+
+    .dreams__main_button_text {
+        font-size: 14px;
+        margin-top: 2vh;
+        margin-left: 0px;
+        border-radius: 30px;
+        width: 280px;
+        height: 40px;
+    }
+
+    .main__dreams{
+        width: 105%;
+        height: 89vh;
+            }
+
+}
+
+
+    
+
+
+
+
+
+
+
+
 
 @font-face{
     font-family: "Montserrat Regular";
